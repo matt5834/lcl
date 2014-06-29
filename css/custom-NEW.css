@@ -241,6 +241,12 @@ footer .col-lg-6{
 footer p{
 	font-size: 1em;
 	text-align: left;
+	margin-bottom: 5px;
+	clear: both;
+}
+
+footer #license{
+	margin-top: 20px;
 }
 
 footer .col-lg-6 a{
@@ -254,45 +260,57 @@ footer .col-lg-6 a:hover{
 }
 
 footer #sponsor-logos{
-	width:380px;
-	height:75px;
+	width:100%;
+	height:18px;
 	padding: 0px;
-	float:right;	
-}
-
-@media (max-width: 991px){
-	footer #sponsor-logos{
-		float: left;
-	}	
+	margin-top: 0px;
 }
 
 footer #logo-macarthur{
+  display: block;
   float: left;
-  background: url(../img/macarthur-logo.png);
+  background: url(../img/logo-macarthur-foundation.png) no-repeat;
   background-size: contain;
   background-position: center;
-  width:200px;
+  width:210px;
   height:100%;
 }
 
 footer #logo-p2pu{
   display: block;
   float: left;
-  background: url(../img/p2pu-logo-square.png);
+  background: url(../img/p2pu-logo.png) no-repeat;
   background-size: contain;
   background-position: center;
-  width:75px;
+  width:55px;
   height:100%;
-  margin: 0px 15px 0px 15px;
+  margin: 0px 15px 0px 20px;
 }
 
 footer #logo-medialab{
   display: block;
   float: left;
-  background: url(../img/ML-logo.png);
+  background: url(../img/medialab-logo-text.png) no-repeat;
   background-size: contain;
   background-position: center;
-  width:75px;
+  width:139px;
   height:100%;
+}
+
+@media (max-width: 468px){
+	footer #sponsor-logos{
+		height:46px;
+	}
+	footer #logo-macarthur{
+		margin-top: 3px;
+		height: 50%;
+	}
+	footer #logo-p2pu{
+		height:50%;
+	}
+	footer #logo-medialab{
+		height:50%;
+	}
+	
 }
 
