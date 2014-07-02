@@ -5,7 +5,7 @@ $(function(){
     importer : Miso.Dataset.Importers.GoogleSpreadsheet,
     parser : Miso.Dataset.Parsers.GoogleSpreadsheet,
     key: "1HFXxHu1kvEkgk1Hl65Sy_3jutddXoawupruDVgwPYI4",
-    worksheet: "0"
+    worksheet: "1"
   });
 
   var workingColumns = [
