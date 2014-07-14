@@ -308,13 +308,15 @@ a:hover{
 	overflow: hidden;
 }
 
-.gallery-content img{
+.gallery-content .image-container img{
 	position: absolute;
-	top: 0;
+	display: block;
 	left: 0;
-	height: 100%;
-	width: 100%;
-	object-fit: contain;
+	right: 0;
+	margin: 0 auto;
+	max-height: 100%;
+	max-width: 100%;
+	/*object-fit: contain;*/
 }
 
 .gallery-content .col-lg-4 .container .video-container{
