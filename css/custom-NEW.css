@@ -458,21 +458,21 @@ footer #logo-hewlett{
 		height:46px;
 	}
 	footer #logo-macarthur{
-		margin-top: 7px;
+		margin: 7px 0px 15px -2px;
 		height: 50%;
+		clear:both;
 	}
 	footer #logo-p2pu{
-		height:50%;
+		height:60%;
+		clear:both;
+		margin: 7px 0px 0px 2px;
 	}
 	footer #logo-medialab{
 		height:50%;
 	}
 	footer #logo-hewlett{
-		height:50%;
-		clear:both;
-		margin-top: 7px;
-		margin-left: -7px;
-		margin-right: 10px;
+		height:60%;
+		margin: 7px 0px 0px 15px;
 	}
 	
 }
