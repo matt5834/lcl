@@ -374,7 +374,7 @@ a:hover{
 /* FOOTER CONTENT 
 -------------------------------------------------- */
 
-footer .col-lg-6{
+footer .col-lg-8{
 	padding: 0px;
 	padding-bottom: 15px;
 }
@@ -390,60 +390,75 @@ footer #license{
 	margin-top: 20px;
 }
 
-footer .col-lg-6 a{
+footer .col-lg-8 a{
 	font-weight: bold;
 	color:#0099cc;
 }
 
-footer .col-lg-6 a:hover{
+footer .col-lg-8 a:hover{
 	color: #191919;
 	text-decoration: none;
 }
 
 footer #sponsor-logos{
 	width:100%;
-	height:18px;
+	height:25px;
 	padding: 0px;
 	margin-top: 0px;
 }
 
 footer #logo-macarthur{
+/* 650x53px */
   display: block;
   float: left;
   background: url(../img/logo-macarthur-foundation.png) no-repeat;
   background-size: contain;
   background-position: center;
-  width:210px;
+  width:257px;
   height:100%;
 }
 
 footer #logo-p2pu{
+/* 686x212px */
   display: block;
   float: left;
   background: url(../img/p2pu-logo.png) no-repeat;
   background-size: contain;
   background-position: center;
-  width:55px;
+  width:68px;
   height:100%;
   margin: 0px 15px 0px 20px;
 }
 
 footer #logo-medialab{
+/* 883x106px */
   display: block;
   float: left;
   background: url(../img/medialab-logo-text.png) no-repeat;
   background-size: contain;
   background-position: center;
-  width:139px;
+  width:175px;
   height:100%;
 }
 
-@media (max-width: 468px){
+footer #logo-hewlett{
+ /* 400x155px */
+  display: block;
+  float: left;
+  background: url(../img/hewlett-foundation-logo.jpeg) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width:75px;
+  height:100%;
+  margin: 0px 15px 0px 0px;
+ }
+
+@media (max-width: 654px){
 	footer #sponsor-logos{
 		height:46px;
 	}
 	footer #logo-macarthur{
-		margin-top: 3px;
+		margin-top: 7px;
 		height: 50%;
 	}
 	footer #logo-p2pu{
@@ -451,6 +466,13 @@ footer #logo-medialab{
 	}
 	footer #logo-medialab{
 		height:50%;
+	}
+	footer #logo-hewlett{
+		height:50%;
+		clear:both;
+		margin-top: 7px;
+		margin-left: -7px;
+		margin-right: 10px;
 	}
 	
 }
