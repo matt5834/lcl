@@ -22,13 +22,14 @@
     <!-- MailChimp signup form styles -->
     <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
       <style type="text/css">
-        #mc_embed_signup {font-family:Helvetica, sans-serif;}
+        #mc_embed_signup {font-family:Lato, Helvetica, sans-serif;}
         #mc_embed_signup input {border:1px solid #fff; -webkit-appearance:none; border-radius:2px;}
         #mc_embed_signup input:focus {border-color:#eee;}
-        #mc_embed_signup .button {clear:both; background-color: #0099cc; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0px 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
-        #mc_embed_signup .button:hover {background-color:#33add6;}
+        #mc_embed_signup .button {clear:both; background-color: #0099cc; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:1.14em; font-weight: bold; height: 35px; line-height: 30px; margin: 0px 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto; text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+}
+        #mc_embed_signup .button:hover {background-color:#fff; color:#191919; text-shadow:none;}
         #mc_embed_signup input.email {display:block; padding:5px 0; margin:0 4% 10px 0; text-indent:5px; width:100%; color:#191919;}
-        #mc_embed_signup input.button {display:block; width:100px; margin:0 0 10px 0; min-width:90px; background-color:#0099cc;}
+        #mc_embed_signup input.button {display:block; width:100px; margin:0px 0 10px 0; min-width:90px; background-color:transparent; color:#fff; border: 1px #fff solid;}
       </style>
 
     <!-- Google Analytics: DO NOT EDIT -->  
@@ -77,21 +78,22 @@
     ============================================================================ -->
     <div class="jumbotron">
       <div class="container">
-        <div class="col-lg-8 col-md-8 col-sm-6">
-          <h1>Learning Creative Learning</h1>
-          <p>Join a community of educators, designers, parents, and tinkerers exploring new ways to support creating, experimenting, and learning. Together we can <strong>reimagine</strong> and <strong>reinvent</strong> education.</p>
+        <div class="col-lg-6 col-md-7 col-sm-6" id="name-cont">
+          <h1>Learning <br>Creative Learning</h1>
+          <p>Join a community of educators, designers, parents, and tinkerers exploring new ways to support creating, experimenting, and learning. <strong>Together we can reimagine and reinvent education.</strong></p>
+          <p id="learn-more"> <a href="about.html">LEARN MORE <span class="glyphicon glyphicon-chevron-right"></span></a></p>
         </div>
 
         <!--Mail Chimp Email Sign-up Form
         ====================================== -->
-        <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-5 col-sm-6 col-xs-6">
           <div class="container">
 
-            <h2>It's Better Together!</h2>
-            <p><strong>SIGN-UP</strong> here for a facilitated introduction to our community as a member of the next cohort of creative learners.</p>
+            <h2>Join a Cohort</h2>
+            <p><strong>SIGN-UP</strong> here to become a member of the next cohort participating in the LCL community. It's better together! </p>
 
             <div id="mc_embed_signup">
-              <form action="http://mit.us3.list-manage.com/subscribe/post?u=d9f4b9eb6573accd175a2a4af&amp;id=c563ba71a7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="padding: 10px 0 0;">
+              <form action="http://mit.us3.list-manage.com/subscribe/post?u=d9f4b9eb6573accd175a2a4af&amp;id=c563ba71a7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="padding: 8px 0 0;">
                 <input type="email" value="" name="EMAIL" class="email" style="" id="mce-EMAIL" placeholder="email address">
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -5000px;">
@@ -99,26 +101,43 @@
                 </div>
                 <center>
                 <div class="clear">
-                  <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button" style="" >
+                  <input type="submit" value="SUBMIT" name="subscribe" id="mc-embedded-subscribe" class="button" style="" >
                 </div>
               </center>
               </form>
             </div>
         <!--End Sign-up Form-->
+  
 
         </div>
       </div>
+
+      <div class="col-lg-3 col-md-5 col-sm-6 col-xs-6">
+          <div class="container">
+            <h2>&hellip; or Start Now</h2>
+            <p><strong>Join the conversation!</strong> Start exploring our community and the ideas of creative learning by checking out one of the topics below.</p>
+            
+            <a href="#foo">
+              <div class="my-button">
+                <span class="glyphicon glyphicon-chevron-down"></span>
+                <p id="gs-button">GET STARTED</p>
+                <span class="glyphicon glyphicon-chevron-down"></span>
+              </div>
+            </a>
+        </div>
+      </div>
+
       </div>
     </div>
 
     <!-- ====================  Content below the jumbotron  ====================== -->
-
+    <a class="anchor" id="foo"></a>
     <div class="container content">
-      
-      <h1>GET STARTED</h1>
+      <!--
+      <h1>EXPLORE CREATIVE LEARNING</h1>
       <p class="intro-p"> Dive straight in to the community by exploring one of the topics below, or sign-up above to join the next cohort of creative learners. </p>
-      <p class="intro-p">Whatever path you choose, you'll find everything you need in our discussion forum.</p>
-
+      <p class="intro-p">Whatever path you choose, you'll find everything you need in our community discussion forum.</p>
+      -->
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-6">
           <a href="http://discuss-learn.media.mit.edu/t/explore-creative-learning/1094">
