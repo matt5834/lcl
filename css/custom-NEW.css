@@ -219,7 +219,6 @@ a.anchor{
 	}
 	.jumbotron .col-lg-3{
 		padding: 10px 10px 10px 10px;
-		min-width: 310px;
 	}
 	.jumbotron .col-lg-6 h1{
 		font-size: 3.8em;
@@ -232,6 +231,20 @@ a.anchor{
 	}
 }
 
+@media (max-width: 563px){
+	.jumbotron .col-lg-6{
+		padding: 0px;
+	}
+	.jumbotron .col-lg-3{
+		min-width: 100%;
+		padding: 0px;
+		padding-top: 8px; 
+	}
+	.jumbotron .col-lg-3 .container{
+		min-height: 160px;
+
+	}
+}
 
 
 /* INDEX BODY CONTENT
