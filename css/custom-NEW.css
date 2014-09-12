@@ -130,7 +130,7 @@ a.anchor{
 .jumbotron .col-lg-3 .container .my-button{
 	display: inline-block;
 	margin: auto;
-	margin-top: 5px;
+	margin-top: 23px;
 	width: 180px;
 	height: 38px;
 	border: 1px #fff solid;
@@ -229,7 +229,9 @@ a.anchor{
 	.jumbotron .col-lg-3 .container h2{
 		font-size: 2.2em;
 	}
-}
+	.jumbotron .col-lg-3 .container .my-button{
+		margin-top: 23px;
+	}}
 
 @media (max-width: 563px){
 	.jumbotron .col-lg-6{
@@ -242,7 +244,9 @@ a.anchor{
 	}
 	.jumbotron .col-lg-3 .container{
 		min-height: 160px;
-
+	}
+	.jumbotron .col-lg-3 .container .my-button{
+		margin-top: 8px;
 	}
 }
 
@@ -260,6 +264,9 @@ a.anchor{
 	font-weight: bold;
 	text-align: center;
 	color: #191919;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 2.3em;
 }
 
 .content .intro-p{
@@ -270,12 +277,12 @@ a.anchor{
 
 .content .row{
 	margin-top: 30px;
+	margin-bottom: 50px;
 }
 
 .content .col-lg-4 {
   text-align: center;
   margin-bottom: 30px;
-  min-height: 285px;
 }
 
 .content img{
@@ -288,6 +295,40 @@ a.anchor{
 	background-color: #ffffff;
 	padding:15px;
 	border-radius: 15px;
+	min-height:303px;
+}
+
+@media (max-width: 1199px){
+	.content .col-lg-4 .container{
+		min-height: 298px;
+		padding-left:35px; 
+		padding-right:35px;
+		padding-bottom: 10px;
+	}
+}
+
+@media (max-width: 991px){
+	.content .col-lg-4 .container{
+		min-height: 298px;
+		padding-left:15px; 
+		padding-right:15px;
+	}
+	.content .col-lg-4 #sixth{
+		min-height: 318px;
+	}
+}
+
+@media (max-width: 767px){
+	.content .col-lg-4 .container{
+		min-height: 1px;
+		max-width: 500px;
+	}
+	.content .col-lg-4 #sixth{
+		min-height: 1px;
+	}
+	.content h1{
+		font-size: 2em;
+	} 
 }
 
 .content .col-lg-4 a{
