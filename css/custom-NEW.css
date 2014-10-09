@@ -3,6 +3,7 @@ body {
   padding-bottom: 20px;
   background-color: #eeeeee;
   font-family: Lato, Helvetica, sans-serif;
+  color: #191919
 }
 
 hr{
@@ -14,7 +15,7 @@ a{
 }
 
 a:hover{
-	color:#33add6;
+	color:#008ab8;
 	text-decoration: none;
 }
 
@@ -337,9 +338,10 @@ a.anchor{
 
 #about-jumbo{
 	background-image: url(../img/sprials-compiled-banner.png);
-	text-shadow: 3px 3px 4px rgba(0,0,0,.95);
+	text-shadow: 3px 3px 6px rgba(0,0,0,.95);
 	padding-top: .75em;
 	min-height: 278px;
+	margin-bottom: 20px;
 } 
 
 #about-jumbo h1{
@@ -527,7 +529,86 @@ a.anchor{
 	padding-top: 20px;
 }
 
+/* FAQ BODY CONTENT
+-------------------------------------------------- */
+.faq-content{
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 0px;
+}
 
+#faq-jumbo{
+	background-image: url(../img/faq-banner.png);
+	text-shadow: 1px 1px 3px rgba(0,0,0,.7);
+	padding-top: .75em;
+	min-height: 278px;
+	margin-bottom: 20px;
+} 
+
+#faq-jumbo h1{
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	margin-top: 85px;
+}
+
+#faq-jumbo .intro-p{
+	font-size: 1.3em;
+	margin-bottom: 40px;
+	text-align: center;
+	max-width: 700px;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+#faq-jumbo .intro-p a{
+	color:#4db8db;
+}
+
+#faq-jumbo .intro-p a:hover{
+	color:#191919;
+}
+
+.faq-content ul{
+	padding-left: 20px;
+}
+
+.faq-content a.faq-list{
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #191919;
+}
+
+
+.faq-content a.faq-list:hover{
+	color: #0099cc;
+}
+
+.faq-content h1{
+	font-weight: bold;
+	text-align: center;
+	color: #191919;
+}
+
+.faq-content h2{
+	font-weight: bold;
+	font-size: 1.7em;
+	margin-top: 25px;
+}
+
+.faq-content p{
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.faq-content strong{
+	font-weight: 400;
+}
+
+.faq-content footer p{
+	font-size: 1em;
+	font-weight: 400;
+}
 
 
 /* FOOTER CONTENT 
