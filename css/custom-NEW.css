@@ -642,7 +642,7 @@ footer .col-lg-8 a:hover{
 
 footer #sponsor-logos{
 	width:100%;
-	height:25px;
+	height:60px;
 	padding: 0px;
 	margin-top: 0px;
 }
@@ -677,7 +677,7 @@ footer #logo-medialab{
   background: url(../img/medialab-logo-text.png) no-repeat;
   background-size: contain;
   background-position: center;
-  width:300px;
+  width:175px;
   height:100%;
 }
 
