@@ -4,7 +4,7 @@ $(function(){
   var cakes = new Miso.Dataset({
     importer : Miso.Dataset.Importers.GoogleSpreadsheet,
     parser : Miso.Dataset.Parsers.GoogleSpreadsheet,
-    key: "12B4GzljD0Tp8gbSpDcmGum7BP4vQEvsLQxd4Vbmbsjs",  
+    key: "1HFXxHu1kvEkgk1Hl65Sy_3jutddXoawupruDVgwPYI4",  
     worksheet: "1"
   });
 
